@@ -1,63 +1,46 @@
+/* Change the background color of the entire page */
 body {
-    background-color: rgb(46, 57, 58);
-    margin: 0; /* Remove default margin */
-    font-family: Arial, sans-serif;
-  }
-  h1 {
-    color: rgb(194, 67, 67);
-  }
-  p {
-    color: rgb(206, 206, 206);
-    
+    background-color: #292b36; /* Replace this with any color code or name */
+    margin: 0;
+    padding: 0;
 }
 
-.fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    z-index: 1000; /* Ensure header stays on top of other content */
-}
-
+/* Styles for the header */
 .header {
-    background-color: #272727; /* Change this color to whatever you want */
-    padding: 20px;
+    background-image: url('https://www.outsidersauto.com/cdn/shop/products/image_3627575b-ad2b-46b9-b02e-18f0c35a2620_1200x1200.heic?v=1660670855'); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire header area */
+    background-position: center; /* Centers the image in the header */
+    padding: 10px;
     text-align: center;
     color: white;
+    height: 150px; /* Adjust height as needed */
 }
 
-main {
-    margin-top: 60px; /* Space for header */
-    padding: 20px;
-}
-
-}
-
-/* Style for the navigation buttons */
+/* Style for the navigation buttons using Flexbox */
 .nav-buttons {
     display: flex;
-    justify-content: center; /* Centers buttons horizontally */
-    align-items: center; /* Aligns items vertically if needed */
+    justify-content: center; /* Centers the buttons */
     margin: 20px 0;
-    height: 100vh; /* Full height of the viewport (optional) */
+    gap: 20px; /* Space between buttons */
+    padding: 0 10px; /* Padding on the left and right to adjust spacing */
+    flex-wrap: wrap; /* Allows wrapping if needed on smaller screens */
 }
 
+/* Style for individual buttons */
 .button {
-    background-color: #6c9186; /* Button background color */
+    background-color: #135155;
     color: white;
-    padding: 15px 30px;
+    padding: 15px 0;
     text-decoration: none;
-    margin: 10px;
     border-radius: 5px;
     display: inline-block;
+    text-align: center;
+    flex: 1 1 23%; /* Each button takes up about a quarter of the width */
+    max-width: 24%; /* Limits the max width to 23% */
     font-size: 16px;
     transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #005f75; /* Darker color when hovering */
+    background-color: #005f75;
 }
