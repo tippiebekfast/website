@@ -6,4 +6,8 @@ body {
   }
   p {
     color: rgb(206, 206, 206);
+    
   }
+  .center-text {
+    text-align: center;
+}
