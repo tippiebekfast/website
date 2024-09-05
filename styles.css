@@ -7,12 +7,35 @@ body {
 
 p {
     color: rgb(202, 202, 202); /* Change text color to green */
+    font-family: "Noto Sans", sans-serif;
+    padding: 0px 20px;
+}
+
+h6 {
+    color: rgb(202, 202, 202); /* Change text color to green */
+    font-family: "Noto Sans", sans-serif;
+    padding: 0px 20px;
+}
+
+h1 {
+    color: rgb(253, 72, 72); /* Change text color to green */
+    font-family: "Raleway", sans-serif;
+    padding: 0px 20px;
 }
 
 h2 {
-    color: rgb(202, 202, 202); /* Change text color to green */
+    color: rgb(214, 214, 214); /* Change text color to green */
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    padding: 0px 20px;
 }
 
+h3 {
+    color: rgb(214, 214, 214); /* Change text color to green */
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    padding: 0px 20px;
+}
 
 /* Styles for the header */
 .header {
@@ -73,3 +96,4 @@ h2 {
     padding: 0px 10px; /* Space inside the rectangle */
     display: inline-block; /* Makes the container fit the content width */
 }
+
