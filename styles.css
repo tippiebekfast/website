@@ -5,6 +5,11 @@ body {
     padding: 0;
 }
 
+p {
+    color: rgb(202, 202, 202); /* Change text color to green */
+}
+
+
 /* Styles for the header */
 .header {
     background-image: url('https://www.outsidersauto.com/cdn/shop/products/image_3627575b-ad2b-46b9-b02e-18f0c35a2620_1200x1200.heic?v=1660670855'); /* Replace with the path to your image */
@@ -12,8 +17,9 @@ body {
     background-position: center; /* Centers the image in the header */
     padding: 10px;
     text-align: center;
-    color: white;
+    color: rgb(253, 72, 72);
     height: 150px; /* Adjust height as needed */
+    font-family: "Raleway", sans-serif;
 }
 
 /* Style for the navigation buttons using Flexbox */
@@ -43,4 +49,12 @@ body {
 
 .button:hover {
     background-color: #005f75;
+}
+
+/* Container for the h1 with rounded rectangle styling */
+.rounded-rectangle {
+    background-color: #1a1a1a; /* Color of the rounded rectangle */
+    border-radius: 12px; /* Rounds the corners */
+    padding: 0px 10px; /* Space inside the rectangle */
+    display: inline-block; /* Makes the container fit the content width */
 }
