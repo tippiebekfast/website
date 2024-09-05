@@ -1,5 +1,7 @@
 body {
     background-color: rgb(46, 57, 58);
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif;
   }
   h1 {
     color: rgb(194, 67, 67);
@@ -8,6 +10,20 @@ body {
     color: rgb(206, 206, 206);
     
   }
-  .center-text {
-    text-align: center;
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000; /* Ensure header stays on top of other content */
+}
+
+main {
+    margin-top: 60px; /* Space for header */
+    padding: 20px;
 }
