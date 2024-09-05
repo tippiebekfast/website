@@ -34,3 +34,30 @@ main {
     margin-top: 60px; /* Space for header */
     padding: 20px;
 }
+
+}
+
+/* Style for the navigation buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: center; /* Centers buttons horizontally */
+    align-items: center; /* Aligns items vertically if needed */
+    margin: 20px 0;
+    height: 100vh; /* Full height of the viewport (optional) */
+}
+
+.button {
+    background-color: #6c9186; /* Button background color */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #005f75; /* Darker color when hovering */
+}
