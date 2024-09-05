@@ -23,6 +23,13 @@ body {
     z-index: 1000; /* Ensure header stays on top of other content */
 }
 
+.header {
+    background-color: #4CAF50; /* Change this color to whatever you want */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
 main {
     margin-top: 60px; /* Space for header */
     padding: 20px;
