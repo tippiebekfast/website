@@ -44,6 +44,12 @@ h4 {
     padding: 0px 20px;
 }
 
+h5 {
+    color: rgb(253, 72, 72); /* Change text color to green */
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+}
+
 /* Styles for the header */
 .header {
     background-image: url('https://www.outsidersauto.com/cdn/shop/products/image_3627575b-ad2b-46b9-b02e-18f0c35a2620_1200x1200.heic?v=1660670855'); /* Replace with the path to your image */
