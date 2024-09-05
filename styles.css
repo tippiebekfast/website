@@ -37,6 +37,13 @@ h3 {
     padding: 0px 20px;
 }
 
+h4 {
+    color: rgb(202, 202, 202); /* Change text color to green */
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
 /* Styles for the header */
 .header {
     background-image: url('https://www.outsidersauto.com/cdn/shop/products/image_3627575b-ad2b-46b9-b02e-18f0c35a2620_1200x1200.heic?v=1660670855'); /* Replace with the path to your image */
@@ -72,6 +79,7 @@ h3 {
     max-width: 24%; /* Limits the max width to 23% */
     font-size: 16px;
     transition: background-color 0.3s;
+    font-family: "Noto Sans", sans-serif;
 }
 
 /* Style for the link that acts as a button */
