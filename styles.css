@@ -9,6 +9,10 @@ p {
     color: rgb(202, 202, 202); /* Change text color to green */
 }
 
+h2 {
+    color: rgb(202, 202, 202); /* Change text color to green */
+}
+
 
 /* Styles for the header */
 .header {
@@ -45,6 +49,17 @@ p {
     max-width: 24%; /* Limits the max width to 23% */
     font-size: 16px;
     transition: background-color 0.3s;
+}
+
+/* Style for the link that acts as a button */
+.button-link {
+    text-decoration: none; /* Removes the default underline from the link */
+    display: inline-block; /* Allows styling like a button */
+    color: rgb(253, 72, 72); /* Sets the text color within the link to black (or any color you prefer) */
+}
+
+.button-link:hover .rounded-rectangle {
+    background-color: #000000; /* Changes background color on hover */
 }
 
 .button:hover {
